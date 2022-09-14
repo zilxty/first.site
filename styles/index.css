@@ -1,0 +1,131 @@
+.fa-solid fa-avocado{
+  font-size: x-large;
+  font-size: 24px;
+}
+#sitea{
+  margin-left: 30px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.sitename{
+  font-size: 50px;
+  background: none;
+  font-family:'Roboto', sans-serif;
+  font-style:normal ;
+  width: 200;
+  font-size: 64px;
+  line-height: 0.9;
+  margin-bottom: 80px;}
+  
+
+#body{
+  width: 100%;
+  height: 100vh;
+  background-image:url(../img/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+body{
+  margin: 0;
+}
+
+h1{
+  margin-block-start:0;
+  margin-block-end: 0;
+}
+.button{
+  width: 130.5px;
+  height: 56px;
+  border-radius: 100px;
+  background:#04AA6D;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-style:normal ;
+  font-weight:bold ;
+  font-size: 14px;
+  line-height: 1.1;
+  color: aliceblue;
+}
+
+.content{
+  max-width: 430px;
+  margin-left: 100px;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.s1,.s2,.s4,.s5,.s3{
+  font-size:large;
+  margin-left: 0;
+  padding: 8px 16px ;
+  margin-top: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-style:normal ;
+  line-height: 1.1;
+  border: none;
+  width: 100px;
+  height: 50px;
+  background-color: white;
+}
+.s3{
+  width: 130.5px ;
+}
+.s1{
+  margin-left: 20%;
+}
+.s4{
+  background-color:aliceblue ;
+  border-style:solid; 
+  border-width: 2px;
+  border-color: black;
+}
+
+.s1:hover,.s2:hover,.s3:hover,.button:hover,.s4:hover,.s5:hover{
+  transform: scale(1.1);
+  background-color:#04AA6D;
+  color: white;
+}
+
+#navigation{
+  display: block; 
+  background-color:white;
+}
+#d1,#d2,#d3{
+  width: 270px;
+  height: 280px;
+  transform: translate(250px, 250px);
+}
+#d2{
+  transform: translateY(250px);
+  margin-left: 370px;
+  margin-right: 120px;
+}
+#d3{
+  transform: translateY(250px);
+}
+#insta{
+  background-image: url("../img/fon1.png");
+  height: 30px;
+}
+#insta:hover{
+  transform: rotateX(270deg) ;
+  background-image: url("../img/fon2.png");
+  
+}
+
+@media screen and (max-width: 413px){
+  .s1,.s2,.s3,.s4,.s5{
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 20px;
+  
+  }
+  .s1{
+    margin-left: 43px;
+  }
+}
+
